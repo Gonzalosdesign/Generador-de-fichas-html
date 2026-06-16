@@ -450,7 +450,7 @@ def ejecutar_proceso():
 
 def abrir_ayuda():
         webbrowser.open(
-            "https://tu-sitio-ayuda.uy"
+            "https://github.com/Gonzalosdesign/Generador-de-fichas-html?tab=readme-ov-file"
         )
 
 
