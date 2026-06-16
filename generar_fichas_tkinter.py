@@ -12,7 +12,18 @@ import os
 
 import webbrowser
 
+import sys
+from pathlib import Path
+
+
 BASE_DIR = Path(__file__).parent
+def resource_path(relative_path):
+    try:
+        base_path = Path(sys._MEIPASS)
+    except Exception:
+        base_path = Path(__file__).parent
+
+    return base_path / relative_path
 
 CAMPOS = {
     "Formación y título profesional": {
@@ -462,8 +473,10 @@ if __name__ == "__main__":
     ventana = tk.Tk()
 
     ventana.iconphoto(
-    True,
-    tk.PhotoImage(file=BASE_DIR / "favicon.png")
+        True,
+        tk.PhotoImage(
+            file=resource_path("favicon.png")
+        )
     )
 
     ventana.title(
