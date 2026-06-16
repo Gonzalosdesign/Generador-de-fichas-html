@@ -12,15 +12,17 @@ La herramienta cuenta con una interfaz gráfica desarrollada en Python mediante 
 
 El usuario selecciona los archivos de entrada necesarios y completa la información requerida. A partir de esos datos, el sistema:
 
-1. El docente o funcionaro completa el google doc con sus datos
-2. Desde uneam se descarga el doc en formato DOCX
-3. Se ejecuta la aplicación
-4. Se selecciona el o los archivos docx a transformar en html
-1. El programa procesa la información proporcionada.
-2. Aplica una plantilla HTML predefinida.
-3. Inserta automáticamente los datos correspondientes en cada campo.
-4. Genera una ficha HTML individual para cada persona.
-5. Guarda los archivos resultantes en la carpeta Salida y abre dicha carpeta para comodidad del usuario.
+1. Descargar el archivo .exe desde la carpeta /dist
+2. Compartir el doc Nueva Ficha con el docente o funcionario para que complete con sus datos
+3. Desde Uneam se descarga el doc en formato DOCX
+4. Se ejecuta la aplicación
+5. Se selecciona el o los archivos docx a transformar en html
+6. El programa procesa la información proporcionada.
+7. Aplica una plantilla HTML predefinida.
+8. Inserta automáticamente los datos correspondientes en cada campo.
+9. Genera una ficha HTML individual para cada persona.
+10. Guarda los archivos resultantes en la carpeta Salida y abre dicha carpeta para comodidad del usuario.
+11. Copiar el contenido del archivo html en el espacio correspondiente en el perfil del funcionario en woerdpress
 
 De esta forma se evita la edición manual de cada ficha, disminuyendo errores y mejorando la eficiencia del proceso.
 
